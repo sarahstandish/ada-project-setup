@@ -24,9 +24,9 @@ To use this script to set up an Ada project:
    
 2. Run the following command in your terminal:
 
-   `ada-project-setup/python-project-setup.sh <clone code for the repository here>`
+   `ada-project-setup/python-project-setup.sh <clone url for the project repository here>`
 
    Example:
 
-   `ada-project-setup/python-project.sh https://github.com/user-name/repository-name.git`
+   `ada-project-setup/python-project.sh https://github.com/user-name/project-repository-name.git`
 
