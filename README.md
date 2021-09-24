@@ -1,4 +1,4 @@
-# Ada Python Project Setup
+# Ada Python Project Setup Script
 
 ## Description
 A shell script to automate the setup of Ada Developer's Academy Python projects, completed in preparation for a lightning talk (September 2021).
@@ -9,7 +9,8 @@ A shell script to automate the setup of Ada Developer's Academy Python projects,
 # Instructions
 
 ## One-time setup
-1. Clone the `ada-project-setup` repo into your `projects` directory.
+1. `cd` into your `projects` directory
+1. Clone the `ada-project-setup` repo into your `projects` directory
 
 2. `cd` into the `ada-projects-setup` directory.
 
@@ -17,9 +18,15 @@ A shell script to automate the setup of Ada Developer's Academy Python projects,
    `chmod +x python-project.sh`
 
 ## Usage
-Set up an Ada Python project by navigating to your `projects` directory and then running the following command in your terminal:
-`ada-project-setup/python-project-setup.sh <clone code for the repository here>`
+To use this script to set up an Ada project:
 
-Example:
-`ada-project-setup/python-project.sh https://github.com/user-name/repository-name.git`
+1. `cd` to your `projects` directory.
+   
+2. Run the following command in your terminal:
+
+   `ada-project-setup/python-project-setup.sh <clone code for the repository here>`
+
+   Example:
+
+   `ada-project-setup/python-project.sh https://github.com/user-name/repository-name.git`
 
