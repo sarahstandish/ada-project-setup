@@ -10,7 +10,8 @@ if [ -z "$repo" ]
 then
     # give directions on how to run the script if no repo provided
     echo "When you run the file, you must also specify the repo you want to clone."
-    echo "Type the following into the command line, for example:"
+    echo "Type the location of the python-projects.sh file, followed by the Github clone url."
+    echo "For example:"
     echo "ada-project-setup/python-project.sh https://github.com/user-name/repository-name.git"
 
     exit
