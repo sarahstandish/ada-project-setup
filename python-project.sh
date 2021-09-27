@@ -19,14 +19,14 @@ then
 else
     git clone $repo
 
-    echo "You have cloned a repo from":
-    git remote -v
-
     # regex to get the directory_name name, thank you Internet commenters (source: https://serverfault.com/questions/417241/extract-repository-name-from-github-url-in-bash)
     directory_name=$(basename $repo .git)
 
     # navigate to the directory
     cd $directory_name
+
+    echo "You have cloned a repo from":
+    git remote -v
 
     # setup the virtual environment
     python3 -m venv venv
