@@ -1,7 +1,7 @@
-# Ada Python Project Setup Script
+# Ada Project Setup Scripts
 
 ## Description
-A shell script to automate the setup of Ada Developer's Academy Python projects, completed in preparation for a lightning talk (September 2021).
+Shell script to automate the setup of Ada Developer's Academy projects, completed in preparation for a lightning talk (September 2021).
 
 ## Author
 [Sarah Standish](https://github.com/sarahstandish)
