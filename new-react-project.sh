@@ -34,4 +34,6 @@ else
 
     yarn start
 
+    code .
+
 fi
