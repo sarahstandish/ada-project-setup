@@ -32,8 +32,8 @@ else
     # reinstall dependences
     yarn install
 
-    yarn start
-
     code .
+
+    yarn start
 
 fi
